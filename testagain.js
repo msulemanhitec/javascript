@@ -78,4 +78,4 @@ console.log(typeof stringNumber)
 //Broswer string Value datha ha Bollen ,string , number  ,Bolean ,Number,,Object , Array Convert kerna hotha ha
 //someNumber display kara ga  
  33
- //string Number display : output => string
+ //string Number display : output => string 
