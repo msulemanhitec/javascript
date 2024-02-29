@@ -33,7 +33,7 @@
 //Prefix ma value pala increment ho jathi ha 
 //postfix ma bad ma value increment ho jathi ha
 //Postfix increment
-//js
+//js 
 // let x = 3;
 // const y=x++;
 // // x is 4;  y is 3
@@ -41,13 +41,24 @@
 // const y2 = x2++;
 //x2 is 4n;  y2 is 3n
 //Prefix increment
-JS
-let x = 3;
-const y = ++x;
+// JS
+// let x = 3;
+// const y = ++x;
 // x is 4; y is 4
 
-let x2 = 3n;
-const y2 = ++x2;
+// let x2 = 3n;
+// const y2 = ++x2;
 // x2 is 4n; y2 is 4n
 //Link to study
 //coneratio operator
+// Prefix increment
+// let x = 3;
+// const y = x++;
+
+// console.log(`x:${x}, y:${y}`)ss
+
+//Postfix increment
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
