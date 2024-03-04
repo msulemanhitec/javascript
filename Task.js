@@ -63,7 +63,7 @@ let myobj = {
  // Home work Data Type bthna ha
 //  let num="Suliman";
 //  console.log(typeof(num)); //string
-// console.log( typeof scoreValue); //umber
+// console.log( typeof scoreValue); //Number
 // console.log(typeof outsideTemp ); //object
 
 // let userEmail;

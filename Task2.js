@@ -22,8 +22,12 @@ let myobj = {
   const myFunction = function(){
     console.log("Hello world");
   }
-   console.log(typeof bigNumber);
-  console.log(typeof outsideTemp);
-  console.log(typeof  scorevalue);
-  console.log(typeof bigNumber);
-  console.log(typeof anotherId);
+  //  console.log(typeof bigNumber);
+  // console.log(typeof outsideTemp);
+  // console.log(typeof  scorevalue);
+  
+  // console.log(typeof anotherId);// symbol
+  // console.log(typeof bigNumber); // undefined
+  // console.log(typeof outsideTemp); //object
+  // console.log(typeof scorevalue); // Number
+  
