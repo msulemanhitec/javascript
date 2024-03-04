@@ -17,19 +17,19 @@ const scoreValue = 100.3 //output: false number
 const isLoggedIn = false;
 const outsideTemp = null  //output :false object
 
-let userEmail;
+// let userEmail;
 
-const id = Symbol('123')
-const anotherId = Symbol('123')  //output: symbol
+// const id = Symbol('123')
+// const anotherId = Symbol('123')  //output: symbol
 // const bigNumber = 3465435766544356754n
-console.log(id === anotherId);
+// console.log(id === anotherId);
 //Refence\Non Primative)\
 // Array , Objects , Functions  // DataType:Non Primative hin ka data type function he bola jatha ha
 // Function Ka return Object function bola jatha ha ha
 const heros = ["shaktiman", "naagraj", "dog"] // Hin sub ka Rreference type Non primittive type)
 // (myobjvariable mastore ker saktha ha)
 let myobj = {
-    name: "hitesh",   //object 
+    name: "hitesh",   //object   
     age: 22,
 }
 //simple Function
@@ -51,14 +51,28 @@ let myobj = {
 // }
 // console.log(typeof outsideTemp );
 // kise dat type kasa patha kertha ha
-let num="Suliman";
-console.log(typeof(num));
+// let num="Suliman";
+// console.log(typeof(num)); 
 
-const myFunction = function(){
-    console.log("Hello world");
+//   const myFunction = function(){
+//     console.log("Hello world"); //false
 
-}
-console.log(typeof anotherId );
+//  }
+//  console.log(typeof anotherId );
+// console.log(typeof scoreValue);
  // Home work Data Type bthna ha
+//  let num="Suliman";
+//  console.log(typeof(num)); //string
+// console.log( typeof scoreValue); //umber
+// console.log(typeof outsideTemp ); //object
+
+// let userEmail;
+
+//const id = Symbol('123')
+// const anotherId = Symbol('123')  //output: symbol
+// console.log(typeof anotherId);
+// console.log(typeof bigNumber); //undefine
+console.log(typeof anotherId); //symbol
+
 
 
