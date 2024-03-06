@@ -30,4 +30,25 @@ let myobj = {
   // console.log(typeof bigNumber); // undefined
   // console.log(typeof outsideTemp); //object
   // console.log(typeof scorevalue); // Number
+     
+   //+++++++++++++++++++++++++++++++++++++++++++
+   
+   // Stack (Primitive) (Number , Boolean) stack ka under jub koee cheze la ga wo copy miltha tha, Heap (Non-Primitive) but koee heap ka under koee cheze raktha ha la ga reference miltha ha , Reference ( under koee cheze changing kertha ha update kertha ha wo origina vakue ka under he kertha ha )
+    let myYoutubename = "hiteshchoudarydotcom"
+   let anothername  = myYoutubename
+   anothername = "chaiaurcode"
+   console.log(myYoutubename);
+   console.log(anothername);
+
+   let userOne = {
+    email: "user@google.com",
+    upi : "user@ybl" 
+   }
+   let userTwo = userOne
+   userTwo.email = "hitesh@google.com"
+   //stack ma heap ko same reference miltha ma
+   console.log(userOne.email);
+   console.log(userTwo.email);
   
+
+  data type  variable assign kertha  = 1,2 

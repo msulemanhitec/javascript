@@ -74,5 +74,12 @@ let myobj = {
 // console.log(typeof bigNumber); //undefine
 console.log(typeof anotherId); //symbol
 
+//  Stack (Primitive), Heap (Non-Primitive)
+//  stack memory use hothi ha jo variable declare kera his apko koee copy miltha ha
+ 
+ Heap (Non-Primitive)
+// jub koee memory heap ka under define hoti or object chati chathi ha  heap ka under chala chatha ha apko miltha ha reference (orginal value)
 
-
+let myYoutubename = "hiteshchoudarydotcom"
+let anothername  = myYoutubename
+console.log(anothername)
