@@ -1,4 +1,4 @@
-//array
+//array [Defination: Array ma ik List bantha ha his ma jithna Data rakna chai rak saktha ha]
 //javascript array resize hotha ha
 // Array ma jub copy operation kera ga shalow copy bantha ha
 // array -copy -operat
