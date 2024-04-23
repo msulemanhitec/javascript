@@ -54,12 +54,77 @@ const users = [
 
 ]
 
-users[1]. email //1 value object . niotation use ker saktha ha
-console.log(tinderUser);
+// users[1]. email //1 value object . niotation use ker saktha ha
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); //Output value miltha  array apna sare key ko lia his ko array ma ruk dia ap chaia loop laga saktha ha ////DataBase special come kery ga hin chezo ka use key ga
-console.log(Object.entries(tinderUser)); //Array ko array mila  her ik value ko array ma mila dia First propery key ho ge second his ke value ho ge
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));//kia apkapass his name koee property ha
+// console.log(Object.keys(tinderUser)); //Output value miltha  array apna sare key ko lia his ko array ma ruk dia ap chaia loop laga saktha ha ////DataBase special come kery ga hin chezo ka use key ga
+// console.log(Object.entries(tinderUser)); //Array ko array mila  her ik value ko array ma mila dia First propery key ho ge second his ke value ho ge
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));//kia apkapass his name koee property ha
+
+
+  // Object part 3 //
+//Array Restructing 
+//  
+// Rract Resturting
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+     
+}
+
+//course. courseInstructor
+const {courseInstructor} = course
+console.log(Instructor);
+
+
+
+///////////////////////////object3////////////
+// const course = {   //his litteral value ma hold kertha ha
+//     coursename: "js in hindi",
+//     price: "999",
+//     courseInstructor: "hitesh"
+
+// }
+//     Jithni Api Json format ha
+//Object  Destructuring kia jatha ha
+// course.courseInstructo r
+
+// const {courseInstructor: instructor} = course
+// console.log(courseInstructor);
+
+// const navbar = (prop.company) => { //Ract ka bara ma batha  //yahi same concept de structuring rha hu
+     
+
+// }
+// navbar(company = "hitesh")
+
+// //Repeat
+// const navbar = ({company}) => { //Ract ka bara ma batha  //yahi same concept de structuring rha hu
+     
+
+// }
+// navbar(company = "hitesh")
+//   {
+
+//   }
+// key(string)  value (string)
+//  name:hitesh , //hisa Litteral value ma hold kertha ha
+  // coursename : "js in hindi" ,
+  // price: "free"
+
+  //fetch ya ui data call karo ga ya data mil jha ga
+
+  // jithna Api ha jsion format ha
+
+  //Jsion Simply javascript Notation ha
+
+
+
+  
+
+
 
 
 

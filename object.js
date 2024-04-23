@@ -5,7 +5,7 @@
 // consteral ke thra bana ga sigle turn bantha ha
 // Singleturn:Consteral ke thra bana ga Singleturn 1 object
 // But dosre thra buntha ha single turn ni mupltiple instance bun jatha ha
-// object literals
+// object literalss
 // object .create consteral method ka thtrough his ka under single turn buntha ha
 //  const JsUser = {} //object  key ,value  important dala ga ke ha
 // object .create
