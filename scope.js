@@ -6,7 +6,7 @@ let a = 10 //scope  block ma if ka under  rha ga 10 use kera ga value same rha g
 const b =  20 //if ka under block scope         //if ka under  liktha ha block sa bahir ni jana chai
 //console.log("INNER: ", a);
 // var c =  30 //var avoid kertha ha
-
+//var avoid kertha ha  
 }
 
 //  console.log(a);
@@ -50,9 +50,9 @@ function one(){
     return num + 1
    }
    addone(5) //return hoa value print ni hoee ha
-
+  ///function pass kertha ha host kertha ha
 
 addTwo(5) // deceartion dia ha iga ja ga value ko hold be kia ha
-const addTwo = function(num){  // javasript ma concept hata hosting 
+const addTwo = function(num){  // javasript ma concept hata hosting   //hosting decalreare sa pala use ni ker saktha ha
     return num + 2
 }

@@ -21,7 +21,7 @@ console.log("H");
 //    let result = number1 + number2
 //     console.log(number1 + number2);
  //}
-let result = (number1 +  number2) //addTwo number
+let result = (number1 +  number2) //addTwo number  function defination
 console.log("Hitesh");
 return result  //result ka bad kush ni print ni hotha
 }

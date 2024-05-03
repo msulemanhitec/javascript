@@ -51,4 +51,4 @@ let myobj = {
    console.log(userTwo.email);
   
 
-  data type  variable assign kertha  = 1,2 
+  // data type  variable assign kertha  = 1,2 
